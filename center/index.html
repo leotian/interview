@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .center1 {
+        text-align: center;
+        background: #ddffaa;
+        height: 40px;
+        margin: auto auto;
+        line-height: 40px;
+      }
+      .center2 {
+        width: 120px;
+        margin: 0 auto;
+        background: green;
+      }
+      .center3 {
+        position: relative;
+        background: pink;
+        height: 80px;
+      }
+      .center3-content {
+        position: absolute;
+        left: 50%;
+        width: 120px;
+        background: #ff5566;
+        margin-left: -60px;
+        top: 50%;
+        height: 30px;
+        margin-top: -15px;
+      }
+      .center4 {
+        position: relative;
+        background: #ddffaa;
+        height: 80px;
+      }
+      .center4-content {
+        position: absolute;
+        left: 50%;
+        background: #ff5566;
+        top: 50%;
+        transform: translate(-50%, -50%)
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center1">text-align</div>
+    <div class="center2">margin 0 auto</div>
+    <div class="center3">
+      <div class="center3-content">absolute  margin</div>
+    </div>
+    <div class="center4">
+      <div class="center4-content">absolute  transform</div>
+    </div>
+  </bdoy>
+</html>

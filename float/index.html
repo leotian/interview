@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .float1 {
+        background: #dfdddf;
+      }
+      .float1-content {
+        float: left;
+        height: 30px;
+      }
+      .float1::after {
+        content: '';
+        clear: both;
+        display: block;
+      }
+      .float2 {
+        background: #ededed;
+        overflow: hidden;
+      }
+      .float2-content {
+        float: left;
+        height: 30px;
+      }
+      .float3 {
+        background: #898989;
+      }
+      .float3-content {
+        float: left;
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="float1">
+      <div class="float1-content">parent add after clear both</div>
+    </div>
+    <div class="float2">
+      <div class="float2-content">parent overflow hidden</div>
+    </div>
+    <div class="float3">
+      <div class="float3-content">parent add div clear both</div>
+      <div style="clear: both"></div>
+    </div>
+  </bdoy>
+</html>

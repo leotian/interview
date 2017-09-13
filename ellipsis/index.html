@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .ellipsis1 {
+        width: 80px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .ellipsis2 {
+        width: 80px;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+      }
+      .ellipsis3 {
+        width: 80px;
+        line-height: 1.4rem;
+        height: 4.2rem;
+        position: relative;
+        overflow: hidden;
+      }
+      .ellipsis3::after {
+        content: '...';
+        position: absolute;
+        bottom:0;
+        right:0;
+        padding:0 20px 1px 45px;
+        background:url(http://www.css88.com/wp-content/uploads/2014/09/ellipsis_bg.png) repeat-y;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ellipsis1">小毛驴89看风景阿飞就打发了；安抚；卡卡发大水发送</div>
+    <div class="ellipsis2">小毛驴89看风景阿飞就打发了；安抚；卡卡发大水发送</div>
+    <div class="ellipsis3">小毛驴89看风景阿飞就打发了；安抚；卡卡发大水发送ffadsfafafas</div>
+  </body>
+</html>
