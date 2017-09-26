@@ -28,3 +28,10 @@
     例如: 渲染一个Markdown格式的评论预览, 当窗口停止改变大小之后重新计算布局, 等等])<br>
     <img src="https://mmbiz.qpic.cn/mmbiz_png/3rHtVmQJ8rUILFM2zqfPHVGIsT8akcCFJPQoIwOjojS7IAnOzUcA2Qs3ChTPnBgH9EJCibBleajb65v4mdwictYg/0?wx_fmt=png"/>
   </p>
+
+#### 2017年09月26日
+  <p>
+    实现一个throttle函数,throttle(function, wait, [options]),创建并返回一个像节流阀一样的函数。<br>
+    当重复调用函数的时候，至少每隔 wait毫秒调用一次该函数。对于想控制一些触发频率较高的事件有帮助。<br>
+    ex：<br> <img src="http://oucnbze5q.bkt.clouddn.com/17-9-26/36550349.jpg" alt="">
+  </p>
